@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/carf"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Exercis"
+	}
+}

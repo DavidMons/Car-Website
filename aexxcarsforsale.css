@@ -1,0 +1,461 @@
+@import url(//db.onlinewebfonts.com/c/16e7dbc91a89779c7a30cb39919cf041?family=BR+Omega);
+@import url(//db.onlinewebfonts.com/c/0dc93ed34035ff615c4f0c8352828e47?family=Cera+Compact+Pro); 
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    outline:none;
+    text-decoration:none;
+    font-family: 'BR Omega',sans-serif;
+    scroll-behavior:smooth;
+}
+
+
+.header {
+    z-index:5;
+    display:flex;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    padding-right:275px;
+    /* background:rgb(241, 239, 239); */
+    /* background:rgb(233, 10, 66); */
+    background:rgb(0, 208, 255);
+}
+
+.navbar {
+    /* border:2px solid black; */
+    width:900px;
+}
+
+#menu-icon {
+    position:relative;
+    display:none;
+}
+
+
+.navbar a {
+    color:white;
+    margin-left:50px;
+    font-size:20px;
+}
+
+.navbar a:hover {
+    /* color:red; */
+    color:black
+}
+
+.navbar a:nth-child(2) {
+    /* color:red; */
+    color:rgb(0, 0, 0);
+
+}
+
+.bxs-car {
+    color:blue;
+    text-shadow: 0 0 0.5rem rgb(0, 162, 255);
+}
+
+.logo {
+    /* border:2px solid black; */
+    font-weight:bolder;
+    margin-left:30px;
+    font-size:25px;
+    width : 300px;
+    color:black;
+}
+
+.white-card,
+.white-card2 {
+    position:relative;
+    width:400px;
+    height:400px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    margin-left:50px;
+    border-radius:20px;
+}
+
+.white-card:hover .imgcontainer,
+.white-card2:hover .imgcontainer2{
+    position:relative;
+    top:-160px;
+    scale : 0.65;
+    transition-duration: 0.8s;
+}
+
+
+.white-card:hover .main-info,
+.white-card2:hover .main-info {
+    border-radius: 0 0 20px 20px;
+    scale:0.65;
+    position:relative;
+     top:-250px;
+     transition-duration:0.8s;
+}
+
+.main-info {
+    display:flex;
+    padding-bottom:40px;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    /* background:rgb(220, 218, 218); */
+    background:black;
+}
+
+.g.active {
+    color:black;
+}
+
+.bigsection  {
+    background:white;
+}
+
+.bigsection.active {
+    background:black;
+}
+
+.white-card .imgcontainer,
+.white-card2 .imgcontainer2 {
+    width:400px;
+    height:300px;
+}
+
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.ninth,
+.tenth,
+.eleventh,
+.twelfth,
+.thirteenth,
+.fourteenth,
+.fifteenth,
+.sixteenth,
+.seventeenth,
+.eighteenth,
+.nineteenth {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.second .white-card:nth-last-of-type(2) .g2,
+.third .white-card:nth-last-of-type(2) .g2,
+.white-card2:nth-last-of-type(2) .g2{
+    width:180px;
+    /* border: 1px solid red; */
+}
+
+.white-card2:nth-child(3) .g2 {
+    width:180px;
+    /* border: 1px solid blue; */
+}
+
+.fourth .white-card:nth-last-of-type(1) .g2 {
+    /* border: 1px solid green; */
+    width:180px;
+}
+
+.fifth .white-card:nth-child(3) .g2,
+.sixth .white-card:nth-last-of-type(1) .g2,
+.seventh .white-card:nth-last-of-type(1) .g2,
+.eighth .white-card:nth-child(3) .g2,
+.ninth .white-card:nth-last-of-type(1) .g2,
+.tenth .white-card:nth-last-of-type(1) .g2,
+.twelfth .white-card:nth-last-of-type(1) .g2,
+.thirteenth .white-card:nth-last-of-type(1) .g2,
+.fifteenth .white-card:nth-last-of-type(1) .g2,
+.sixteenth .white-card:nth-last-of-type(1) .g2,
+.seventeenth .white-card:nth-last-of-type(1) .g2,
+.nineteenth .white-card:nth-last-of-type(1) .g2{
+    /* border: 1px solid orange; */
+    width: 180px;
+}
+
+.twelfth .white-card:nth-last-of-type(2) .g2,
+.thirteenth .white-card:nth-last-of-type(2) .g2,
+.fifteenth .white-card:nth-last-of-type(2) .g2,
+.sixteenth .white-card:nth-last-of-type(2) .g2,
+.seventeenth .white-card:nth-last-of-type(2) .g2,
+.eighteenth .white-card:nth-last-of-type(2) .g2, 
+.nineteenth .white-card:nth-last-of-type(2) .g2 {
+    /* border: 1px solid green; */
+    width:180px;
+}
+
+.eighth .white-card:nth-child(3) .main-info {
+    /* border: 1px solid green; */
+    margin-right:3px;
+}
+
+.eighth .white-card:nth-last-of-type(3) .g2,
+.ninth .white-card:nth-last-of-type(3) .g2,
+.tenth .white-card:nth-last-of-type(3) .g2,
+.eleventh .white-card:nth-last-of-type(3) .g2,
+.twelfth .white-card:nth-last-of-type(3) .g2,
+.thirteenth .white-card:nth-last-of-type(3) .g2,
+.fourteenth .white-card:nth-last-of-type(3) .g2,
+.fifteenth .white-card:nth-last-of-type(3) .g2,
+.sixteenth .white-card:nth-last-of-type(3) .g2,
+.seventeenth .white-card:nth-last-of-type(3) .g2 {
+    /* border: 1px solid pink; */
+    width:180px;
+}
+
+.imgcontainer img,
+.imgcontainer2 img {
+    width:100%;
+    height:100%;
+    border-radius:20px 20px 0 0;
+}
+
+.price-info {
+    margin-left:30px;
+    margin-top:10px;
+}
+
+.car-name {
+    font-size:30px;
+    margin: 1rem 1rem 0;
+    /* text-shadow: 0.05rem 0.05rem 0 rgb(255,255,255); */
+    /* color:rgb(2, 182, 202); */
+    color:red;
+}
+
+.price-info .price {
+    font-size:30px;
+    color:green;
+    text-shadow: 0.08rem 0.08rem 0 rgb(0,0,0);
+    margin-bottom:20px;
+}
+
+.price-info .g {
+    color:white;
+    font-size:18px;
+    text-decoration:underline;
+    margin-bottom:20px;
+}
+
+.price-info .g2 {
+    color:rgb(229, 226, 226);
+}
+
+.white-card:nth-last-of-type(2) .main-info .price-info,
+.white-card2:nth-last-of-type(2) .main-info .price-info {
+    /* margin-left:-10px; */
+}
+
+.white-card:nth-last-of-type(2) .main-info,
+.white-card2:nth-last-of-type(2) .main-info
+ {
+    border-top: 1px solid red;
+   /* padding-bottom:23px; */
+}
+
+.white-card:nth-last-of-type(1) .main-info,
+.white-card2:nth-last-of-type(1) .main-info
+ {
+    border-top: 1px solid blue;
+   /* padding-bottom:23px; */
+}
+
+.white-card:nth-last-of-type(3) .main-info,
+.white-card2:nth-last-of-type(3) .main-info
+ {
+    border-top: 1px solid yellow;
+   /* padding-bottom:23px; */
+}
+
+
+
+.containers2 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#sun {
+    color:rgb(253, 134, 86);        
+    width:50px;
+    margin-left:690px;
+}
+
+#sun.dude {
+    color:aliceblue;
+}
+
+.ad {
+    background:rgb(1, 1, 60);
+    /* background:rgb(141, 11, 11); */
+    padding:100px;
+}
+
+.ad h1 {
+    margin-left:50px;
+    font-size:90px;
+    /* text-shadow: 0.5rem 0.5rem 0.25rem rgb(0, 162, 255); */
+    text-shadow: 0.5rem 0.5rem 0.25rem rgb(0, 0, 0);
+    color:white;
+
+}
+
+
+
+.ending h1 {
+    border-top:1px solid black;
+    text-align:center;
+    font-size:60px;
+    background:rgb(190, 190, 190);
+    padding: 6rem 0 6rem;
+    text-shadow: 0.2rem 0.2rem 0 rgb(255,255,255);
+}
+
+article {
+    display:flex;
+}
+
+article .lastfirstdiv {
+    margin-left:250px;
+}
+
+article div a {
+    text-align:center;
+    font-weight:200;
+    color:black;
+    display:block;
+    margin-top:25px;
+}
+
+article div a:hover {
+    text-decoration:underline;
+}
+
+article div h1:first-child {
+    margin-bottom:50px;
+}
+
+article div h1 {
+    margin-top:30px;
+    text-align:center;
+    /* border: 1px solid blue; */
+    font-size:18px;
+    font-weight:bolder;
+}
+
+article div a:last-child {
+    margin-bottom:50px;
+}
+
+article div {
+    margin-left:90px;
+}
+
+footer {
+    text-align:center;
+    background:rgb(1, 140, 171);
+    padding: 3rem 0 3rem;
+}
+
+footer a {
+    color:white;
+    margin-left:50px;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}
+
+hr {
+    border-bottom: 1px solid black;
+}
+
+.lastfirstdiv a,
+.lastseconddiv a,
+.lastthirddiv a,
+.lastfourthdiv a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+}  
+
+.caa {
+    font-size:100px;
+    background:red;
+    padding: 200px 0 200px 0;
+    text-align:center;
+    text-shadow: 0.1rem 0.1rem 0.4rem rgb(255,255,255),
+                0.15rem 0.15rem 0.5rem rgb(0, 162, 255);
+}
+
+
+.sloga1 {
+    background:blue;
+}
+.caa1 {
+    font-size:100px;
+    padding: 200px 0 200px 0;
+    text-align:center;
+    text-shadow: 0.1rem 0.1rem 0.4rem rgb(255,255,255),
+                 0.15rem 0.15rem 0.5rem red,
+                 .2rem 0.2rem 0.6rem rgb(1, 1, 60);                
+}
+
+
+/* .Hello {
+    width:500px;
+    height:500px;
+    background:red;
+} */
+
+
+.text-whites {
+    color:black;
+    position:relative;
+    top:-260px;
+    width:360px;
+    margin: 0 auto;
+    font-size:16px;
+    text-align:center;
+    /* border: 1px solid black; */
+    color:transparent;
+}
+
+
+.white-card:hover .text-whites,
+.white-card2:hover .text-whites {
+    color:black;
+}
+
+.buyers {
+    background:rgb(233, 8, 0);
+    padding:15px;
+    border-radius: 20px;
+    color:black;
+    position:relative;
+    top:-225px;
+    left:150px;
+    display:none;
+}
+
+.buyers:hover {
+    text-decoration:underline;
+    color:white;
+    background:rgb(243, 56, 56);
+}
+
+.white-card:hover .buyers,
+.white-card2:hover .buyers {
+    display:inline;
+}
+
+.carsforsale {
+    width:250px;
+    font-size:30px;
+    margin: -5rem auto 9rem;
+    text-align:center;
+    border-bottom: 10px solid green;
+}
